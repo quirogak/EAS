@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border : 1px solid skyblue;
+    background-color: skyblue;
+    height: 950px;
+    
+
+    
+
+    
+}
+
+#divs {
+    border: 1px solid red;
+    background-color: white;
+    /*Each time that the number of columns and rows is increased by 1, we have to remove 6 pixels from flex basis to mantain the grid uniform*/
+    flex: 0 0 82px;
+    
+    
+    
+}
